@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>My first Js</title>
+	</head>
+	
+	<body>
+		<script>
+			var today=new Date()
+			
+			var day=today.getDay()
+			day=day<10?'0'+day:day;
+
+			var month=today.getMonth();
+			month=month<10?'0'+month:month;
+
+			var year=today.getFullYear();
+
+			document.write("Today's date in various formats </br>")
+			document.write("mm-dd-yy : "+month+"-"+day+"-"+year+"</br>")
+			document.write("mm/dd/yy : "+month+"/"+day+"/"+year+"</br>")
+
+			document.write("dd-mm-yy : "+day+"-"+month+"-"+year+"</br>")
+			document.write("dd/mm/yy : "+day+"/"+month+"/"+year+"</br>")
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,28 @@
+<html>
+
+	<head>
+		<title>My first js file</title>
+	</head>
+
+	<body>
+		<script >
+			var today = new Date();
+			
+			var days=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
+			document.write("Today is : "+days[today.getDay()]+"<br/>")
+			
+			var hr=today.getHours();
+			var ampm=hr>=12 ? 'PM':'AM'
+			hr=hr%12
+			hr=hr?hr:12
+			
+			var min=today.getMinutes();
+			min=min<10?'0'+min:min
+
+			var time;
+			time="Current time is : "+hr+" "+ampm+" "+min+" "+today.getSeconds();
+
+			document.write(time)
+		</script>		
+	</body>
+</html>
