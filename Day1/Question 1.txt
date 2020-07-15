@@ -1,0 +1,13 @@
+Question :
+Explore and explain the various methods in console function
+Explain them
+Ex. console.log()
+console.warn().
+etc...
+
+Answer :
+1.conole.log() is used to print passed argument values in console. It helps user in debugging code when doing a full-fleged project.
+2.console.warn() is used to warn something in console and will be highlighted in yellow color.
+3.console.clear() is used to clear whole console.
+4.console.time("Name") and console.timeEnd("Name") : In both fn's we use same name which can help to identify the block to which time to be calculated.
+5.console.table() lets you to print data in tabular form.

@@ -1,0 +1,11 @@
+Question - Write a brief intro on available data types in Javascript.
+
+Answer:-
+
+int - can hold number
+float - can hold flotaing number
+char - can hold single characters
+string - can hold multiple characters
+Boolean - can hold true/false
+Null - points nothing
+Array - Group of similar items

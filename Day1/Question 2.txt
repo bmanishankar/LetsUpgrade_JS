@@ -1,0 +1,15 @@
+Question : Write the difference between var, let and const with code examples.
+Answer:
+var - It is used to create variables and that are definitely to be defined.
+let - It allows user to create variables that need not to be assigned in declaration. Mostly let is used in block of codes to distinguish variable from gloabal scope
+const - Once a variable is defined as const it can't be changed to new value. But new values can be appended.
+
+var name="ManiSankar" // It works absolutely fine
+var name; // It throws Error since it is not assigned to any value
+
+let name; // No Error
+
+const shapes={"Triangle","Square","Rectange"}
+const shapes="Cuboid" // Throws Error
+
+shapes.push("Pentagon") // Works fine without throwing any errors
